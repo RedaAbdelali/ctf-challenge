@@ -47,34 +47,35 @@ cd flag_command
 #### Challenge Walkthrough:
 **Step 1: Log In**
 
-    Use the credentials admin:admin to log in.
+  Use the credentials admin:admin to log in.
 
 **Step 2: Inspect the Session Cookie**
 
-    Use browser developer tools to inspect the session cookie.
+  Use browser developer tools to inspect the session cookie.
 
-    The session cookie is a base64 string of the session data (e.g., {"role": "user"} → eyJyb2xlIjogInVzZXIifQ==).
+  The session cookie is a base64 string of the session data (e.g., {"role": "user"} → eyJyb2xlIjogInVzZXIifQ==).
 
-Step 3: Decode the Session Cookie
+**Step 3: Decode the Session Cookie**
 
-Step 4: Forge a Session Cookie
+**Step 4: Forge a Session Cookie**
 
-    Encode {"role": "admin"} as a base64 string to generate a valid session cookie.
+  Encode {"role": "admin"} as a base64 string to generate a valid session cookie.
 
-    Replace the original session cookie with the forged one using browser developer tools.
+  Replace the original session cookie with the forged one using browser developer tools.
 
-Step 5: Access the Admin Page
+**Step 5: Access the Admin Page**
 
-    With the forged session cookie, navigate to the gallery page.
+  With the forged session cookie, navigate to the gallery page.
 
-Step 6: Exploit Command Injection
+**Step 6: Exploit Command Injection**
 
-    Use the file upload feature to inject a command and retrieve the flag:
+  Use the file upload feature to inject a command and retrieve the flag:
 ``
     cat flag
 ``
-Step 7: Retrieve the Flag
 
-    The server will return the flag:
+**Step 7: Retrieve the Flag**
 
-    DEFENSYS{c00k13_m4n1pul4t10n_4nd_c0mm4nd_1nj3ct10n}
+  The server will return the flag:
+
+  DEFENSYS{c00k13_m4n1pul4t10n_4nd_c0mm4nd_1nj3ct10n}
