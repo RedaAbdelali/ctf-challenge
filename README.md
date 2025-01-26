@@ -1,7 +1,9 @@
 # ctf-challenge : flag_command
 ### Challenge Description:
 
-"In the depths of the system lies a hidden payload, waiting to be uncovered. Many have tried to find it, but few have succeeded. The key to your success lies in the shadows—look beyond the obvious, for the hidden payload is concealed in plain sight. Only those who can see the unseen and hear the silent whispers shall prevail."
+The notorious admin of this website has left their credentials lying around, and now it's your chance to step into their shoes. But beware—this admin is no fool. They’ve hidden something valuable behind their login, and the only way to get it is to think like them.
+Once you’ve gained access, you’ll need to dig deeper. The admin’s tools are powerful, but they’re not perfect. Can you exploit their oversight to uncover the hidden flag?
+Hint: Sometimes, the easiest way to become someone is to carry their identity with you.
 
 #### Hints
 
