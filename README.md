@@ -1,38 +1,34 @@
-# ctf-challenge
-CTF Challenge: The Hidden Payload
-Challenge Description
+# ctf-challenge : flag_command
+### Challenge Description:
 
 "In the depths of the system lies a hidden payload, waiting to be uncovered. Many have tried to find it, but few have succeeded. The key to your success lies in the shadows—look beyond the obvious, for the hidden payload is concealed in plain sight. Only those who can see the unseen and hear the silent whispers shall prevail."
-Challenge Overview
+
+### Challenge Overview:
 
 This challenge is a web exploitation task that combines session manipulation and command injection. Players must bypass authentication by forging a session cookie and then exploit a command injection vulnerability to retrieve the flag.
-Challenge Details
 
-    Category: Web Exploitation
+### Challenge Details:
+- Category: Web Exploitation
+- Difficulty: Easy/Medium
+- Flag Format: DEFENSYS{...}
+- Author: reda abdelali
 
-    Difficulty: Easy/Medium
+### Setup Instructions:
+##### Prerequisites
+- Docker (optional, for containerization)
+- Python 3.x
+- Flask (pip install flask)
 
-    Flag Format: DEFENSYS{...}
-
-    Author: [Your Name]
-
-Setup Instructions
-Prerequisites
-
-    Docker (optional, for containerization)
-
-    Python 3.x
-
-    Flask (pip install flask)
-
-Steps to Run the Challenge
-
-    Clone the Repository:
-    bash
-    Copy
-
-    git clone https://github.com/your-username/ctf-hidden-payload.git
-    cd ctf-hidden-payload
+##### Steps to Run the Challenge
+- Clone the Repository
+```
+git clone https://github.com/RedaAbdelali/flag_command.git
+  
+    cd flag_command
+```
+    git clone https://github.com/RedaAbdelali/flag_command.git
+  
+    cd flag_command
 
     Build and Run the Docker Container (optional):
     bash
