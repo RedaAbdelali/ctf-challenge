@@ -5,9 +5,8 @@
 
 #### Hints
 
-    Hint 1: "Sometimes, the key to unlocking the next step lies in the small, often overlooked details stored in your browser."
-
-    Hint 2: "The treasure is locked away, but the system’s tools can be turned against it."
+- Hint 1: "Sometimes, the key to unlocking the next step lies in the small, often overlooked details stored in your browser."
+- Hint 2: "The treasure is locked away, but the system’s tools can be turned against it."
 
 ### Challenge Overview:
 
@@ -15,7 +14,7 @@ This challenge is a web exploitation task that combines session manipulation and
 
 ### Challenge Details:
 - Category: Web Exploitation
-- Difficulty: Easy/Medium
+- Difficulty: Easy
 - Flag Format: DEFENSYS{...}
 - Author: reda abdelali
 
@@ -23,7 +22,7 @@ This challenge is a web exploitation task that combines session manipulation and
 ##### Prerequisites
 - Docker (optional, for containerization)
 - Python 3.x
-- Flask (pip install flask)
+- Flask
 
 ##### Steps to Run the Challenge
 - Clone the Repository
@@ -35,14 +34,15 @@ cd flag_command
 - Build and Run the Docker Container :
 ``
     docker build -t flag_command .
-    docker run -p 5000:5000 flag_command
+``
+``
+  docker run -p 5000:5000 flag_command
 ``
 - Run the Flask Application Locally:
 ``
     python app.py
 ``
 - Access the Challenge:
-        Open your browser and navigate to http://127.0.0.1:5000.
 
 #### Challenge Walkthrough:
 **Step 1: Log In**
